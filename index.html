@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bootstrap Project</title>
+    <!-- Link Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark px-5 py-3"
+    >
+      <a
+        href="index.html"
+        class="navbar-brand text-danger"
+        style="font-size: 26px !important"
+        >Welcome to Nika Shop</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarClick"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarClick">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="font-size: 18px !important"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#fashion"
+              style="font-size: 18px !important"
+              >Fashions</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#computer"
+              style="font-size: 18px !important"
+              >Computer</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#mobile-phone"
+              style="font-size: 18px !important"
+              >Mobile Phone</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" style="font-size: 18px !important"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#contact"
+              style="font-size: 18px !important"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Container -->
+    <div class="container">
+      <!-- Greeting Row -->
+      <div class="row p-3" style="background-color: lightgray">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <h1 class="display-4 mt-5">Hello, Welcome to Nika Shop</h1>
+          <p class="lead mt-3">
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information. This is
+            a simple hero unit, a simple jumbotron-style component for calling
+            extra attention to featured content or information.
+          </p>
+          <hr />
+          <p>
+            It uses utility classes for typography and spacing to space content
+            out within the larger container. It uses utility classes for
+            typography and spacing to space content out within the larger
+            container. It uses utility classes for typography and spacing to
+            space content out within the larger container.
+          </p>
+          <a href="#popular" class="btn btn-primary mt-3 py-2 px-3 mb-5"
+            >See More</a
+          >
+          <a href="#popular" class="btn btn-danger mt-3 py-2 px-3 ml-3 mb-5"
+            >Shop Now</a
+          >
+          <hr />
+        </div>
+      </div>
+      <!-- End of Greeting Row -->
+      <!-- Popular Row -->
+      <div
+        class="row"
+        id="popular"
+        style="background-color: lightgray !important"
+      >
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <h1 class="text-dark display-4 text-center mt-5">
+            Popular Products!
+          </h1>
+          <hr />
+        </div>
+        <!-- Cards -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/1.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Dsquared2</h5>
+              <p class="card-text">
+                DSQUARED2 clearly know how to grab the attention of a room.
+                Crafted in Italy, this striking silk playsuit boasts a kimono
+                style.
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Cards -->
+        <!-- Cards -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/2.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Palm Angels</h5>
+              <p class="card-text">
+                Mixing a bit of L.A.’s sun and malaise with Milan’s more
+                elevated wardrobe, Palm Angels delivers Palm Angels delivers .
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Cards -->
+        <!-- Cards -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Off-White</h5>
+              <p class="card-text">
+                Taking inspiration from equestrian-inspired silhouettes and a
+                contemporary New York femininity.
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Cards -->
+        <!-- Cards -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/4.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Supreme</h5>
+              <p class="card-text">
+                Immerse yourself in New York’s skateboarding culture and
+                youthful carefree spirit with these latest offerings.
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Cards -->
+      </div>
+      <hr />
+      <!-- End of Popular Row -->
+      <!-- Fashion Row -->
+      <div
+        class="row p-3"
+        id="fashion"
+        style="background-color: lightgray !important"
+      >
+        <h3
+          class="bg-danger py-2 px-3 my-3 rounded text-center text-white w-100"
+        >
+          Fashions
+        </h3>
+        <!-- Card -->
+        <div
+          class="card my-3 p-3 shadow col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12"
+          style="background-color: #e4e4e4 !important"
+        >
+          <img src="img/10.jpeg" class="card-img-top" />
+          <div class="card-body">
+            <h5 class="card-title">New romantic</h5>
+            <p class="card-text">
+              The skirts and long dresses made of taffeta by Max Mara are wide
+              and enriched with ruches on the asymmetrical bottom; make a
+              statement by combining them with simple t-shirts to counterbalance
+              the pompous style.
+            </p>
+            <a href="#" class="btn btn-primary mb-3">Detail</a>
+            <a href="#" class="btn btn-danger ml-3 mb-3">Buy Now</a>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <!-- End of Card -->
+      </div>
+      <!-- End of Fashion Row -->
+      <hr />
+      <!-- Computer Row -->
+      <div
+        class="row p-3"
+        id="computer"
+        style="background-color: lightgray !important"
+      >
+        <h3
+          class="bg-warning py-2 px-3 my-3 rounded text-center text-darks w-100"
+        >
+          Computers
+        </h3>
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/11.jpg" class="card-img-top" style="width: 320px" />
+            <div class="card-body">
+              <h5 class="card-title">MSI Prestige 15 4K Screen</h5>
+              <p class="card-text">
+                - Intel i7-10710U Max 4.70GHz (12CPUs) <br />
+                - RAM : 8GB (DDR4) = 16GB = $50<br />
+                - HDD : 512GB PCIe<br />
+                - 15.6" UHD (3840x2160), IPS 100%sRGB<br />
+                - VGA 1 : Intel UHD Graphics<br />
+                - VGA 2 : NEW GTX 1650 4GB<br />
+                - True Pixel display, True Color Technology<br />
+                - 4 Cell 82Whr Battery Upto 16Hrs<br />
+                - Window 10 License<br />
+                - Weight : 1.6 Kg | Color : Space Grey<br />
+                - Code: I2207I1350B1
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card -->
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/6.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">new ROG Strix G17 G712LW</h5>
+              <p class="card-text">
+                - 2.60Hz 10th Intel i7-10750H (12CPUs) <br />
+                - RAM : 16GB (DDR4) = 32GB = $110<br />
+                - HDD : 1,000GB PCIe<br />
+                - 17.3" FHD IPS 100% sRGB, 240Hz<br />
+                - VGA 1 : Intel UHD Graphics<br />
+                - VGA 2 : NVIDIA RTX 2070 8GB<br />
+                - Four Zone RGB lighting Key<br />
+                - Windows 10 License<br />
+                - Code: I0307I1640B1<br />
+                - Free ROG Backpack 17, Mouse Pad<br />
+                - Free ROG Gladius II Gaming Mouse <br />
+                - Code: I0307I1640B1<br />
+                - Free ROG Backpack 17, Mouse Pad<br />
+                - Free ROG Gladius II Gaming Mouse
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card -->
+        <!-- Card -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/11.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">MSI 15.6" GF63 9SCSR, 2019</h5>
+              <p class="card-text">
+                - Intel i7-9750H 2.60GHz Max 4.50GHz <br />
+                - RAM : 32GB (DDR4) = 64GB = $180 <br />
+                - HDD : 512GB PCIe + 1TB <br />
+                - 15.6" FHD (1920x1080), IPS 144Hz <br />
+                - VGA 1 : Intel UHD Graphics 630 <br />
+                - VGA 2 : NVIDIA GTX 1650Ti MAX-Q 4GB<br />
+                - Backlight Keyboard (Single-Color, Red)<br />
+                - Battery: 3-Cell Li-Polymer(51Wh) 7Hrs Up<br />
+                - Windows 10 License<br />
+                - Weight : 1.8 Kg | Color : Black<br />
+                - Code: I0808R945B4<br />
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card -->
+      </div>
+      <!-- End of Computer Row -->
+      <hr />
+      <!-- Mobile Phone Row -->
+      <div
+        class="row p-3"
+        id="mobile-phone"
+        style="background-color: lightgray !important"
+      >
+        <h3
+          class="bg-success py-2 px-3 my-3 rounded text-center text-white w-100"
+        >
+          Mobile Phone
+        </h3>
+        <!-- Card -->
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/7.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy S10+</h5>
+              <p class="card-text">
+                Release: 2019, March <br />
+                Weight: 175g / 198g (ceramic), 7.8mm thickness<br />
+                OS: Android 9.0; One UI<br />
+                SIM: Single SIM (Nano-SIM) or Hybrid Dual SIM<br />
+                (Nano-SIM, dual stand-by)<br />
+                – Samsung Pay (Visa, MasterCard certified)<br />
+                – IP68 dust/water proof (up to 1.5m for 30 mins)<br />
+                Memory: 128/512GB ($989/$1,159), 8 GB RAM<br />
+                CPU: Octa-core (2×2.73 GHz Mongoose M4 & 2×2.31 GHz<br />
+                Cortex-A75 & 4×1.95 GHz Cortex-A55) – EMEA<br />
+                – Octa-core (1×2.84 GHz Kryo 485 & 3×2.41 GHz Kryo 485<br />
+                & 4×1.78 GHz Kryo 485)<br />
+                – USA/LATAM, China<br />
+                Color: Prism White, Prism Black, Prism Green, Prism Blue, Canary
+                Yellow, Flamingo Pink, Ceramic Black, Ceramic White
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card -->
+        <!-- Card -->
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 my-3">
+          <div
+            class="card w-100 shadow p-2"
+            style="background-color: #e4e4e4 !important"
+          >
+            <img src="img/8.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">iPhone XS</h5>
+              <p class="card-text">
+                Release: 2018, September <br />
+                Weight: 177g, 7.7mm thickness<br />
+                OS: iOS 12, up to iOS 12.2<br />
+                SIM: Nano-SIM, Electronic SIM card (eSIM)<br />
+                – IP68 dust/water resistant (up to 2m for 30 mins)<br />
+                – Apple Pay (Visa, MasterCard, AMEX certified)<br />
+                Memory: 64/256/512GB storage, no card slot<br />
+                CPU: Hexa-core (2×2.5 GHz Vortex + 4×1.6 GHz Tempest)<br />
+                Color: Space Gray, Silver, Gold<br />
+                12MP – 2160 pixels <br />
+                Main: Dual: 12 MP, f/1.8, 26mm (wide), 1/2.55″, 1.4µm, OIS,
+                PDAF<br />
+                – Cam2: 12 MP, f/2.4, 52mm (telephoto), 1/3.4″, 1.0µm, OIS,
+                PDAF, 2x optical zoom<br />
+                Selfie: 7 MP, f/2.2, 32mm (standard)<br />
+                Dimensions: 143.6 x 70.9 x 7.7 mm (5.65 x 2.79 x 0.30 in)
+              </p>
+              <a href="#" class="btn btn-primary">Detail</a>
+              <a href="#" class="btn btn-danger ml-3">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of Card -->
+      </div>
+      <!-- End of Mobile Phone Row -->
+      <hr />
+      <!-- Feedback Row -->
+      <div class="row p-3" style="background-color: lightgray !important">
+        <h3 class="bg-info py-2 px-3 my-3 rounded text-center text-dark w-100">
+          Feedbacks
+        </h3>
+        <!-- Card -->
+        <div class="card text-white bg-primary my-3 w-75 mx-auto">
+          <div class="card-header">Feedback</div>
+          <div class="card-body">
+            <h5 class="card-title">Apple’s Product Feedback</h5>
+            <p class="card-text">
+              Be it Apple’s phones, laptops, watches or desktops – Apple
+              marketers truly operate like mind readers of their loyal
+              customers. They’ve managed to have impressive longevity with their
+              products’ success – and customers still don’t seem to get tired of
+              buying them. Why? Apple has made product feedback a major
+              priority.
+            </p>
+          </div>
+        </div>
+        <!-- End of Card -->
+        <!-- Card -->
+        <div class="card text-white bg-danger my-3 w-75 mx-auto">
+          <div class="card-header">Feedback</div>
+          <div class="card-body">
+            <h5 class="card-title">Uber’s Real-time Customer Feedback</h5>
+            <p class="card-text">
+              No list of customer feedback examples is complete without Uber’s
+              real-time rating system. Uber is widely known for how much it
+              emphasizes that its drivers be given ratings. In case the drivers
+              are constantly getting rated poorly – they’ll get in trouble with
+              the car sharing service.
+            </p>
+          </div>
+        </div>
+        <!-- End of Card -->
+        <!-- Card -->
+        <div class="card text-white bg-secondary my-3 w-75 mx-auto">
+          <div class="card-header">Feedback</div>
+          <div class="card-body">
+            <h5 class="card-title">Starbucks’ Ideation Upvotes</h5>
+            <p class="card-text">
+              One of our favorite companies that uses customer feedback is
+              Starbucks. The company successfully uses technology to engage with
+              customers, hence adding value to their experience. Starbucks has
+              launched many successful campaigns, and introduced new items on
+              the menu, that were heavily influenced by customer feedback.
+            </p>
+          </div>
+        </div>
+        <!-- End of Card -->
+        <!-- Card -->
+        <div class="card text-white bg-success my-3 w-75 mx-auto">
+          <div class="card-header">Feedback</div>
+          <div class="card-body">
+            <h5 class="card-title">SiteGround’s Live Chat</h5>
+            <p class="card-text">
+              One of the most popular web host providers on the Internet –
+              SiteGround has made sure to never get too complacent with the way
+              they handle user feedback. The website provides 3 different
+              channels through which customers leave feedback 24/7: phone,
+              tickets and live chat; When you’re done chatting with a rep and
+              close the chat window, you’ll be asked to rate your experience
+              with the rep too.
+            </p>
+          </div>
+        </div>
+        <!-- End of Card -->
+      </div>
+      <!-- End of Feedback Row -->
+      <hr />
+      <!-- About Row -->
+      <div
+        class="row p-3"
+        id="about"
+        style="background-color: lightgray !important"
+      >
+        <h3
+          class="bg-primary py-2 px-3 my-3 rounded text-center text-white w-100"
+        >
+          About
+        </h3>
+        <!-- Card -->
+        <div
+          class="card p-2 shadow my-3"
+          style="background-color: #e4e4e4 !important"
+        >
+          <div class="card-body">
+            <h5 class="card-title">About Us</h5>
+            <p class="card-text">
+              Being a freelance requires more creativity. The majority of
+              customers are interested in your personality as much as in your
+              works. Andrew Reifman decided that listing his projects, skills,
+              and experiences is rather boring. Instead, he chose a couple of
+              fun facts and cartoon graphics for the “About” page. You find out
+              who Andrew actually is, not just what his works look like.
+            </p>
+          </div>
+          <img src="img/12.jpeg" class="card-img-bottom" />
+        </div>
+        <!-- End of Card -->
+      </div>
+      <!-- End of About Row -->
+      <hr />
+      <!-- Contact Row -->
+      <div
+        class="row p-3"
+        id="contact"
+        style="background-color: lightgray !important"
+      >
+        <h3
+          class="bg-secondary py-2 px-3 my-3 rounded text-center text-white w-100"
+        >
+          Contact
+        </h3>
+        <!-- Form -->
+        <form class="w-75 mx-auto my-5">
+          <div class="form-group mb-4">
+            <input type="text" class="form-control" placeholder="Username" />
+          </div>
+          <div class="form-group mb-4">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="form-group mb-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="form-group mb-4">
+            <textarea
+              class="form-control"
+              placeholder="Message here..."
+              rows="5"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <input
+              type="submit"
+              class="form-control btn-primary"
+              value="Submit"
+            />
+          </div>
+        </form>
+        <!-- End of Form -->
+      </div>
+      <!-- End of Contact Row -->
+    </div>
+    <!-- End of Container -->
+    <!-- Container-Fluid -->
+    <div class="container-fluid bg-secondary">
+      <div class="row bg-secondary">
+        <!-- Social Icon -->
+        <div
+          class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 py-5 d-flex justify-content-center align-items-center text-white"
+        >
+          <!-- Facebook -->
+          <i
+            class="fab fa-facebook"
+            style="font-size: 50px; margin-right: 30px"
+          ></i>
+          <!-- Twitter -->
+          <i class="fab fa-twitter" style="font-size: 50px; margin-right: 30px">
+          </i>
+          <!-- Google +-->
+          <i
+            class="fab fa-google-plus"
+            style="font-size: 50px; margin-right: 30px"
+          ></i>
+          <!--Linkedin -->
+          <i
+            class="fab fa-linkedin"
+            style="font-size: 50px; margin-right: 30px"
+          ></i>
+          <!--Instagram-->
+          <i
+            class="fab fa-instagram"
+            style="font-size: 50px; margin-right: 30px"
+          ></i>
+          <!--Pinterest-->
+          <i
+            class="fab fa-pinterest"
+            style="font-size: 50px; margin-right: 30px"
+          >
+          </i>
+        </div>
+        <!-- End of Social Icon -->
+      </div>
+      <hr />
+      <div class="row bg-secondary">
+        <!-- Copy Right -->
+        <p class="small w-100 text-center">
+          © 2020 Copyright: MengSreang Channel
+        </p>
+        <!-- End of Copy Right -->
+      </div>
+    </div>
+    <!-- End of Container-Fluid -->
+    <!-- Script Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
